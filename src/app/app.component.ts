@@ -8,6 +8,7 @@ import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angula
   imports: [CommonModule, ReactiveFormsModule],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
+
 })
 export class AppComponent implements OnInit {
   form: FormGroup = new FormGroup({});
@@ -33,17 +34,25 @@ export class AppComponent implements OnInit {
     });
   }
 
-  
-
   submitForm(){
-    this.prensaHabilidata.forEach(persona => {
-      if (+persona.Dni === this.form.value.Dni){
-        this.verificado = true;
-        this.informacion = persona;
-      }
-    });
-    if (!this.verificado){ 
-      this.intentos += 1;
+    this.verificado = false;
+    this.informacion = {};
+    const dni = this.form.value.Dni;
+    const persona = this.prensaHabilidata.find(persona => +persona.Dni === dni);
+    if (persona) {
+      this.verificado = true;
+      this.informacion = persona;
+    } else {
+      this.intentos++;
     }
+    // this.prensaHabilidata.forEach(persona => {
+    //   if (+persona.Dni === this.form.value.Dni){
+    //     this.verificado = true;
+    //     this.informacion = persona;
+    //   }
+    // });
+    // if (!this.verificado){ 
+    //   this.intentos += 1;
+    // }
   }
 }
