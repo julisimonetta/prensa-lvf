@@ -1,0 +1,166 @@
+.logInSection{  
+    margin: 0% !important;
+    padding: 0% !important;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: white !important; */
+}
+
+.logInSection img{
+    height: 10vh;
+    width: 10vw;
+    object-fit: contain !important;
+}
+
+.logInSection form,
+.logInSection .verificadoMessage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    margin-top: 5vh;
+    width: 80%;
+    height: fit-content;
+    padding: 2vh 1% !important;
+    background-color: #006CBA;
+    border-radius: 10px;
+}
+
+form input{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: 0px !important;
+    padding: 0% 5% !important;
+    font-size: 1.2em;
+    text-align: center ;
+    font-family: "Roboto Slab", serif;
+}
+
+form h1,
+.verificadoMessage h2{
+    font-family: "Roboto Slab", serif;
+    color: white !important;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+form h2{
+    font-family: "Roboto Slab", serif;
+    color: red !important;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.verificadoMessage p{
+    font-family: "Roboto Slab", serif;
+    color: white !important;
+    font-size: 0.9rem;
+    font-weight: lighter;
+    text-align: center;
+    padding: 0% 5% !important;
+}
+
+form small{
+    color: red !important;
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+}
+
+form .primerAviso{
+    color: white !important;
+    font-weight: lighter !important;
+}
+
+form button{
+    width: fit-content;
+    height: 40px;
+    border-radius: 5px;
+    border: 0px !important;
+    background-color: white !important;
+    font-size: 1.2em;
+    padding: 0% 5% !important;
+    font-family: "Roboto Slab", serif;
+    cursor: pointer;
+    color: #006CBA !important;
+}
+
+form button:disabled{
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    cursor: not-allowed;
+    color: #006CBA !important;
+}
+
+.infoBox{
+    width: 100%;
+    height: fit-content;
+    padding: 2vh 2% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoBox p{
+    width: 100%;
+    text-align: left;
+    font-family: "Roboto Slab", serif;
+    color: white !important;
+    font-size: 1rem;
+    font-weight: lighter;
+    text-align: left;
+    gap: 2vh;
+    
+}
+
+.infoBox p strong{
+    font-weight: 600 !important;
+}
+
+.infoBox ul{
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 1vh;
+}
+
+.infoBox ul li{
+    font-family: "Roboto Slab", serif;
+    color: white !important;
+    font-size: 1rem;
+    font-weight: lighter;
+    text-align: left;
+}
+
+@media (min-width: 200px) and (max-width: 700px) {
+    .logInSection img{
+        height: 30vh;
+        width: 50vw;
+    }
+
+    .logInSection form{
+        width: 80%;
+    }
+}
+
+@media (min-width: 701px) {
+    .logInSection img{
+        height: 20vh;
+        width: 20vw;
+    }
+
+    .logInSection form{
+        width: 50%;
+    }
+}
