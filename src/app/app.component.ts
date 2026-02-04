@@ -270,7 +270,7 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     this.verificado = false;
     this.form = this.fb.group({
-      Dni: ['', [Validators.required, Validators.pattern('^[0-9]{8}$')]]
+      Dni: ['', [Validators.required, Validators.pattern('^[0-9]{7}$')]]
     });
   }
 

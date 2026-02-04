@@ -6,7 +6,7 @@
     <small class="primerAviso">Agrega tu DNI sin puntos</small>
     <div *ngIf="form.get('Dni')?.invalid && form.get('Dni')?.touched">
       <small *ngIf="form.get('Dni')?.errors?.['required']">El DNI es obligatorio.</small>
-      <small *ngIf="form.get('Dni')?.errors?.['pattern']">El DNI debe tener 8 dígitos.</small>
+      <small *ngIf="form.get('Dni')?.errors?.['pattern']">El DNI debe tener al menos 7 dígitos.</small>
     </div>
     <button type="submit" [disabled]="form.invalid">Enviar</button>
     <h2 *ngIf="intentos > 0">Por favor, inténtalo nuevamente.</h2>
