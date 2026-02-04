@@ -206,6 +206,62 @@ export class AppComponent implements OnInit {
       Nombre: 'Martin Giachello',
       Dni: '34277772',
       HabilitadoPor: ['Que Pasa VM']
+    },{
+      Nombre: 'Angel Antonio Alves',
+      Dni: '24617856',
+      HabilitadoPor: ['El Diario']
+    },{
+      Nombre: 'Pablo Alberto Pieckensteiner',
+      Dni: '31731418',
+      HabilitadoPor: ['El Diario']
+    },{
+      Nombre: 'Roberto Antonio Zayas',
+      Dni: '13015173',
+      HabilitadoPor: ['El Diario']
+    },{
+      Nombre: 'Victor Alvez',
+      Dni: '11785673',
+      HabilitadoPor: ['El Diario'] 
+    },{
+      Nombre: 'Luciana Gabbianni',
+      Dni: '42696496',
+      HabilitadoPor: ['El Diario']
+    },{
+      Nombre: 'Martínez Priscila Ayelen',
+      Dni: '47987248',
+      HabilitadoPor: ['Prensa Juventud River Plate']
+    },{
+      Nombre: 'Julieta Pérez Gottardi',
+      Dni: '45094903',
+      HabilitadoPor: ['PRENSA Juventud de River Plate Ausonia']
+    },{
+      Nombre: 'Florencia Aldana Ghirardi',
+      Dni: '38018849',
+      HabilitadoPor: ['Prensa C. A. Alumni']
+    },{
+      Nombre: 'Ayala Valentina',
+      Dni: '42304769',
+      HabilitadoPor: ['Prensa C. A. Alumni']
+    },{
+      Nombre: 'María Victoria Galvez Juárez',
+      Dni: '43963359',
+      HabilitadoPor: ['Prensa C. A. Alumni']
+    },{
+      Nombre: 'Micaela Climaco',
+      Dni: '38021999',
+      HabilitadoPor: ['Liga Villamariense','Ente Deporte y Turismo']
+    },{
+      Nombre: 'Conrero Micaela Beatriz',
+      Dni: '37225266',
+      HabilitadoPor: ['Prensa Silvio Pellico']
+    },{
+      Nombre: 'María Daniela Dubois',
+      Dni: '23395207',
+      HabilitadoPor: ['daniphodxt']
+    },{
+      Nombre: 'Julieta Lucia Muñoz',
+      Dni: '44813784',
+      HabilitadoPor: ['Prensa Silvio Pellico']
     }
   ]
 
