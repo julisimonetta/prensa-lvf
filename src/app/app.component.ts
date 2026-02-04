@@ -37,23 +37,23 @@ export class AppComponent implements OnInit {
     },{
       Nombre: 'Ricardo Fabian Passero',
       Dni: '20600581',
-      HabilitadoPor: ['El diario', 'Di Gol Pro']
+      HabilitadoPor: ['El Diario', 'Di Gol Pro']
     },{
       Nombre: 'Leandro Jesús Farias',
       Dni: '28700702',
       HabilitadoPor: ['Radio Alto Alegre 105.5']
     },{
-      Nombre: 'Miguel Ángel NORIEGA',
+      Nombre: 'Miguel Ángel Noriega',
       Dni: '14523728',
       HabilitadoPor: ['CADENA SOMOS', 'Radio Tv']
     },{
       Nombre: 'Juan Pablo Morre',
       Dni: '30771712',
-      HabilitadoPor: ['El diario', 'Cooperativa Comunicar']
+      HabilitadoPor: ['El Diario', 'Cooperativa Comunicar']
     },{
       Nombre: 'Marcelo Daniel Rebuffo',
       Dni: '20528512',
-      HabilitadoPor: ['Radio show villa María 106.5']
+      HabilitadoPor: ['Radio show Villa María 106.5']
     },{
       Nombre: 'Julián Eduardo Lopez',
       Dni: '39325001',
@@ -81,11 +81,11 @@ export class AppComponent implements OnInit {
     },{
       Nombre: 'Bianca Soppeno ',
       Dni: '45351482',
-      HabilitadoPor: ['CM Sport club Colón'] //
+      HabilitadoPor: ['CM Sport club Colón']
     },{
       Nombre: 'Martin Gabriel Cesano ',
       Dni: '44433060',
-      HabilitadoPor: ['CM Sport Club Colon'] //
+      HabilitadoPor: ['CM Sport Club Colon']
     },{
       Nombre: 'Joaquin Peretti',
       Dni: '39612411',
@@ -111,7 +111,7 @@ export class AppComponent implements OnInit {
       Dni: '17371101',
       HabilitadoPor: ['Cadena Somos RTV']
     },{
-      Nombre: 'Antonio Gabriel Mie Besso', //
+      Nombre: 'Antonio Gabriel Mie Besso', 
       Dni: '38884503',
       HabilitadoPor: ['El Diario']
     },{
@@ -120,19 +120,19 @@ export class AppComponent implements OnInit {
       HabilitadoPor: [' El Diario de Villa Maria']
     },{
       Nombre: 'Jesus Horacio Marco',
-      Dni: '8439045', //
+      Dni: '8439045', 
       HabilitadoPor: ['Radio Regional 107.5']
     },{
-      Nombre: 'Marcelo Caros Zona',
+      Nombre: 'Marcelo Carlos Zona',
       Dni: '18158322',
       HabilitadoPor: ['RRSS Unión Central']
     },{
       Nombre: 'María Victoria Bazán',
       Dni: '36849300',
-      HabilitadoPor: ['prense Leandro N. Alem']
+      HabilitadoPor: ['prensa Leandro N. Alem']
     },{
       Nombre: 'Sergio Dellamaggiore',
-      Dni: '8439293', //
+      Dni: '8439293',
       HabilitadoPor: ['FM Horizonte 106.7 Arroyo Cabral']
     },{
       Nombre: 'Axel Gabriel Villalon',
@@ -149,11 +149,11 @@ export class AppComponent implements OnInit {
     },{
       Nombre: 'Edgar Eduardo Camargo',
       Dni: '29815588',
-      HabilitadoPor: ['Prensa Ticino']
+      HabilitadoPor: ['Prensa Atl. Ticino']
     },{
       Nombre: 'Lourdes Cativelli',
       Dni: '43603246',
-      HabilitadoPor: ['prensa Club Ricardo Gutiérrez']
+      HabilitadoPor: ['prensa Ricardo Gutiérrez']
     },{
       Nombre: 'Ariela Cecilia Pedraza',
       Dni: '37125865',
@@ -183,11 +183,11 @@ export class AppComponent implements OnInit {
       Dni: '13409004',
       HabilitadoPor: ['Fm.Horizonte']
     },{
-      Nombre: 'Richard Abrile', //
+      Nombre: 'Richard Abrile',
       Dni: '16990931',
       HabilitadoPor: ['Fm.Horizonte']
     },{
-      Nombre: 'Nelso Novillo', //
+      Nombre: 'Nelso Novillo',
       Dni: '23141595',
       HabilitadoPor: ['Fm.Horizonte']
     },{
@@ -195,11 +195,11 @@ export class AppComponent implements OnInit {
       Dni: '28269958',
       HabilitadoPor: ['Radio Patria']
     },{
-      Nombre: 'Alberto Arce (P)',
+      Nombre: 'Alberto Blas Jose Arce',
       Dni: '14665327',
       HabilitadoPor: ['FM Sport 91.7']
     },{
-      Nombre: 'Alberto Arce (H)',
+      Nombre: 'Alberto Cesar Arce ',
       Dni: '32156019',
       HabilitadoPor: ['Villa María Noticias']
     },{
