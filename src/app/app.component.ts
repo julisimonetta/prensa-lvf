@@ -262,6 +262,26 @@ export class AppComponent implements OnInit {
       Nombre: 'Julieta Lucia Muñoz',
       Dni: '44813784',
       HabilitadoPor: ['Prensa Silvio Pellico']
+    },{
+      Nombre: 'Agostina Molina',
+      Dni: '41993669',
+      HabilitadoPor: ['Agos Molina Fotografia']
+    },{
+      Nombre: 'Patricia Carme',
+      Dni: '29739898',
+      HabilitadoPor: ['Canal SOMOS villa Maria']
+    },{
+      Nombre: 'Gustavo Caroni',
+      Dni: '29965792',
+      HabilitadoPor: ['Canal SOMOS villa Maria']
+    },{
+      Nombre: 'Marcelo Caro',
+      Dni: '17671084',
+      HabilitadoPor: ['Radio Villa.Maria']
+    },{
+      Nombre: 'Maitena Villarreal',
+      Dni: '47668205',
+      HabilitadoPor: ['Prensa Hipolito Yrigoyen']
     }
   ]
 
