@@ -282,6 +282,14 @@ export class AppComponent implements OnInit {
       Nombre: 'Maitena Villarreal',
       Dni: '47668205',
       HabilitadoPor: ['Prensa Hipolito Yrigoyen']
+    },{
+      Nombre: 'Juliana Simonetta',
+      Dni: '43610608',
+      HabilitadoPor: ['FutFem']
+    }, {
+      Nombre: 'Alma Lazos',
+      Dni: '49964951',
+      HabilitadoPor: ['@ranco_fotografia']
     }
   ]
 
