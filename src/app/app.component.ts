@@ -290,6 +290,46 @@ export class AppComponent implements OnInit {
       Nombre: 'Alma Lazos',
       Dni: '49964951',
       HabilitadoPor: ['@ranco_fotografia']
+    },{
+      Nombre: 'Julieta Hernandez',
+      Dni: '42980313',
+      HabilitadoPor: ['Geminis Deportes en vivo']
+    },{
+      Nombre: 'Edson Armando Franco',
+      Dni: '17671904',
+      HabilitadoPor: ['Geminis Deportes en vivo']
+    },{
+      Nombre: 'Abrile Tomás Rubén',
+      Dni: '39612460',
+      HabilitadoPor: ['MEDIO FM HORIZONTE']
+    },{
+      Nombre: 'PEDRO F ACCASTELLO',
+      Dni: '12364516',
+      HabilitadoPor: ['MEDIO FM HORIZONTE']
+    },{
+      Nombre: 'Agustín De Los Dolores',
+      Dni: '43929777',
+      HabilitadoPor: ['VM Juega']
+    },{
+      Nombre: 'Matías Filippa',
+      Dni: '44768696',
+      HabilitadoPor: ['VM Juega']
+    },{
+      Nombre: 'Marcelo Astrada',
+      Dni: '42337880',
+      HabilitadoPor: ['VM Juega']
+    },{
+      Nombre: 'Sergio Oberti',
+      Dni: '29836826',
+      HabilitadoPor: ['FM 88.5 Radio El Populaso']
+    },{
+      Nombre: 'mariano peñaloza',
+      Dni: '32348626',
+      HabilitadoPor: ['FM 88.5 Radio El Populaso']
+    },{
+      Nombre: 'Milo Soria',
+      Dni: '27169313',
+      HabilitadoPor: ['FM 88.5 Radio El Populaso']
     }
   ]
 
