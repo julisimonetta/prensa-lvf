@@ -73,7 +73,7 @@ export class AppComponent implements OnInit {
     },{
       Nombre: 'Leonardo Pierantonelli ',
       Dni: '41033774',
-      HabilitadoPor: ['Villa María Ya']  
+      HabilitadoPor: ['Villa María Ya']
     },{
       Nombre: 'Martina Milagros Casas',
       Dni: '43133351',
@@ -111,7 +111,7 @@ export class AppComponent implements OnInit {
       Dni: '17371101',
       HabilitadoPor: ['Cadena Somos RTV']
     },{
-      Nombre: 'Antonio Gabriel Mie Besso', 
+      Nombre: 'Antonio Gabriel Mie Besso',
       Dni: '38884503',
       HabilitadoPor: ['El Diario']
     },{
@@ -120,7 +120,7 @@ export class AppComponent implements OnInit {
       HabilitadoPor: [' El Diario de Villa Maria']
     },{
       Nombre: 'Jesus Horacio Marco',
-      Dni: '8439045', 
+      Dni: '8439045',
       HabilitadoPor: ['Radio Regional 107.5']
     },{
       Nombre: 'Marcelo Carlos Zona',
@@ -137,7 +137,7 @@ export class AppComponent implements OnInit {
     },{
       Nombre: 'Axel Gabriel Villalon',
       Dni: '43609291',
-      HabilitadoPor: ['Geminis Deportes en vivo']  
+      HabilitadoPor: ['Geminis Deportes en vivo']
     },{
       Nombre: 'Pedro Alberto Villalon',
       Dni: '22597764',
@@ -221,7 +221,7 @@ export class AppComponent implements OnInit {
     },{
       Nombre: 'Victor Alvez',
       Dni: '11785673',
-      HabilitadoPor: ['El Diario'] 
+      HabilitadoPor: ['El Diario']
     },{
       Nombre: 'Luciana Gabbianni',
       Dni: '42696496',
@@ -330,6 +330,30 @@ export class AppComponent implements OnInit {
       Nombre: 'Milo Soria',
       Dni: '27169313',
       HabilitadoPor: ['FM 88.5 Radio El Populaso']
+    },{
+      Nombre: 'Julián Silvano',
+      Dni: '44813783',
+      HabilitadoPor: ['La Posta Digital']
+    },{
+      Nombre: 'Maria del Mar Alfonso ',
+      Dni: '34786560',
+      HabilitadoPor: ['La Posta Digital']
+    },{
+      Nombre: 'Carola Leticia correa',
+      Dni: '25244249',
+      HabilitadoPor: ['Prensa San Lorenzo Las Playas']
+    },{
+      Nombre: 'Marcio Leguizamon',
+      Dni: '42787520',
+      HabilitadoPor: ['Prensa River Plate Villa María ']
+    },{
+      Nombre: 'Shirley Camila racca',
+      Dni: '43133516',
+      HabilitadoPor: ['Prensa River Plate Villa María ']
+    },{
+      Nombre: 'Estefania Raimondi',
+      Dni: '38158437',
+      HabilitadoPor: ['ER: FOTOGRAFIADEPORTIVA']
     }
   ]
 
